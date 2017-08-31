@@ -1,4 +1,4 @@
 FROM gogs/gogs:latest
 MAINTAINER Matt Bentley <mbentley@mbentley.net>
 
-COPY data /data
+ADD data.tar /data
